@@ -7,12 +7,6 @@ body {
     text-align: center;
 }
 
-/* Deep Ocean Blue: #0077b6
-Energetic Green: #00b140
-Warm Grey: #bfbfbf
-Fresh White: #ffffff
-Vibrant Orange: #ff6f61 */
-
 h1,
 h2,
 h3,
@@ -29,9 +23,8 @@ p {
 /* Headings */
 
 .big-heading {
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
+    margin: 10% 0 15%;
+    font-size: 7rem;
 }
 
 .section-heading {
@@ -42,7 +35,7 @@ p {
 /* Containers */
 
 .container-fluid {
-    padding: 7% 15%;
+    padding: 5% 10% 7%;
 }
 
 /* Sections */
@@ -62,69 +55,67 @@ p {
     padding: 0 0 4.5rem;
 }
 
-.navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
+.navbar-brand, .navbar-toggler-icon {
+    font-size: 3.5rem;
 }
 
 .nav-item {
-    padding: 0 0 18px 18px;
+    margin: 7% 0 0 0;
 }
 
 .nav-link {
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: 400;
 }
+
 
 /* Download buttons */
 
 .btn {
-    border-radius: 15px;
+    font-size: 2rem;
+    padding: 3% 5%;
 }
 
 .fa-dumbbell {
     margin-left: 2%;
 }
 
-.signup-button {
-    margin: 5% 3% 5% 0;
-}
-
 /* Title Section */
 
-#title .container-fluid {
-    padding: 3% 15% 7%;
+#title {
     text-align: left;
 }
 
-/* Title image */
-
-img {
-    border-radius: 30px;
+img, .btn {
+    border-radius: 3rem;
 }
 
 .title-image {
-    width: 90%;
-    margin-left: 10%;
+    width: 100%;
+    margin: 15% 0 10%;
 }
 
 /* Features Section */
+
 #about {
-    position: relative;
+    margin: 10% 0;
 }
 
 .feature-title {
-    font-size: 1.5rem;
+    font-size: 4rem;
+    margin: 7% 0;
 }
 
-.feature-box {
-    padding: 5%;
+.feature-box p {
+    font-size: 2.5rem;
+    margin-bottom: 15%;
 }
 
 .icon {
     color: #00b140;
-    margin-bottom: 1rem;
+    margin: 5% 0 2%;
+    font-size: 10rem;
+
 }
 
 .icon:hover {
@@ -140,70 +131,14 @@ img {
 .testimonial-text {
     font-size: 3rem;
     line-height: 1.5;
-    font-style: italic;
-}
-
-.testimonial-image {
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
-}
-
-/* Call to action Section */
-
-.cta-heading {
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
 }
 
 /* Footer Section */
 
-.copyright {
-    color: #aba4a7;
+#footer {
+    padding: 5% 0;
 }
 
-@media (max-width: 1000px) {
-    #title {
-        text-align: center;
-    }
-
-    .title-image {
-        width: 100%;
-        margin: 6% 0;
-    }
-
-    .col-lg-4 {
-        margin: 5% 0;
-    }
-
-    .navbar-brand {
-        font-size: 3rem;
-    }
-
-    .nav-item {
-        margin: 3% 0 0 0;
-    }
-
-    .big-heading {
-        margin: 5% 0;
-        font-size: 5rem;
-    }
-
-    .btn {
-        font-size: 2rem;
-        padding: 3% 5%;
-        border-radius: 30px;
-    }
-
-    .feature-title {
-        font-size: 4rem;
-        margin: 5% 0;
-    }
-
-    div p {
-        font-size: 2.5rem;
-        margin: 0 0 15% 0;
-    }
-
+.copyright {
+    font-size: 2rem;
 }
