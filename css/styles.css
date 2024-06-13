@@ -1,0 +1,311 @@
+/* General */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+    line-height: 1.5;
+    color: #3f3f3f;
+    margin: auto;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+    margin: auto;
+}
+
+p,
+li {
+    font-size: 1.2rem;
+}
+
+p {
+    margin: auto;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+.colored-section {
+    background-color: #1363DF;
+    color: white;
+}
+
+/* Images */
+
+img {
+    border-radius: 30px;
+}
+
+img,
+i {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.fa-4x:hover {
+    color: #2FA4FF;
+}
+
+.fa-hand-fist:hover {
+    transform: scale(1);
+}
+
+.title-img {
+    width: 80%;
+    margin: 2% 0 5% 20%;
+}
+
+/* Headings */
+
+.big-heading {
+    margin: 1% 0 5%;
+    font-size: 3rem;
+}
+
+.title .big-heading {
+    margin-top: 0;
+}
+
+.section-heading {
+    margin: 1% 0 4%;
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    margin: 0 0 8%;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* Textbox */
+
+.textbox {
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+
+::placeholder {
+    font-size: 1.5rem;
+    text-align: center;
+    color: gray;
+}
+
+input {
+    margin: 0 auto 2%;
+}
+
+.form-group input,
+.form-group textarea {
+    font-size: 1.5rem;
+}
+
+/* Buttons */
+
+.btn {
+    border-radius: 15px;
+}
+
+.signup-btn,
+.login-btn {
+    margin-right: 2%;
+}
+
+.email-btn,
+.write-btn {
+    margin-left: 2%;
+}
+
+/* Nav Bar */
+
+.nav-div {
+    padding-top: 1%;
+    padding-bottom: 4.5%;
+}
+
+.navbar {
+    padding: 1.1% 10% 1.4%;
+    background-color: #1363DF;
+}
+
+.navbar-nav {
+    margin-top: 1%;
+}
+
+.navbar-brand i {
+    margin: 0 2% 0 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    padding-top: 1%;
+}
+
+.nav-item {
+    padding: 7px 0 0 30px;
+    font-size: 1.2rem;
+}
+
+.nav-btn {
+    margin-top: 0.3%;
+}
+
+.nav-item.nav-btn,
+.nav-link {
+    padding-top: 0;
+}
+
+/* Title */
+
+.title {
+    text-align: left;
+}
+
+.fa-right-to-bracket {
+    margin-left: 1%;
+}
+
+/* Impact */
+
+.blurb {
+    width: 70%;
+    text-align: justify;
+    margin-bottom: 4%;
+}
+
+.img-l,
+.img-r {
+    width: 40%;
+}
+
+.header {
+    margin: 5% 0 3%;
+}
+
+.hidden {
+    display: none;
+}
+
+.row-l,
+.row-r {
+    margin: 10% 0 12%;
+}
+
+.row-l {
+    text-align: left;
+}
+
+.row-r {
+    text-align: right;
+}
+
+.img-l {
+    margin-left: 50%;
+}
+
+.img-r {
+    margin-right: 50%;
+}
+
+#no-margin {
+    margin-bottom: 0;
+}
+
+/* Features */
+
+.colored-hr {
+    margin: 5% auto 0;
+    width: 50%;
+    border-top: 10px dotted #2FA4FF;
+}
+
+ol {
+    text-align: left;
+}
+
+.features {
+    margin: 8% 0 0;
+}
+
+.features div p {
+    text-align: left;
+}
+
+i.fa-4x {
+    margin-bottom: 10%;
+    color: #1363DF;
+}
+
+.row div h3 {
+    margin-bottom: 8%;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #2FA4FF;
+    color: white;
+    margin-top: 5%;
+}
+
+#testimonials .section-heading {
+    color: white;
+    padding-top: 3%;
+}
+
+#testimonial-carousel .container-fluid {
+    padding-top: 0;
+}
+
+.carousel-item h3 {
+    font-style: italic;
+    margin-bottom: 2%;
+}
+
+.carousel-item p {
+    font-size: 1.2rem;
+}
+
+/* Call-to-action */
+
+.cta .big-heading {
+    margin: 0 0 3%;
+}
+
+/* Footer */
+
+.footer-header,
+.footer-header a,
+.footer-p a {
+    color: #5b646c;
+    text-decoration: none;
+    margin: 0;
+}
+
+.footer-header a i {
+    margin-right: 0.5%;
+}
+
+hr {
+    margin: 0;
+}
+
+.footer-header,
+.footer-header a {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
