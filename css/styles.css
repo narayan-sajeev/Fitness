@@ -30,7 +30,7 @@ p {
 /* Containers */
 
 .container-fluid {
-    padding: 3% 10%;
+    padding: 3% 12%;
 }
 
 .colored-section {
@@ -137,7 +137,7 @@ input {
 }
 
 .navbar {
-    padding: 1.1% 10% 1.4%;
+    padding: 1.1% 12% 1.4%;
     background-color: #1363DF;
 }
 
