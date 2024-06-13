@@ -163,10 +163,6 @@ img {
     color: #aba4a7;
 }
 
-.social-icon {
-    margin: 20px 10px;
-}
-
 @media (max-width: 1000px) {
     #title {
         text-align: center;
@@ -200,8 +196,14 @@ img {
         border-radius: 30px;
     }
 
-    .icon {
-        
+    .feature-title {
+        font-size: 4rem;
+        margin: 5% 0;
+    }
+
+    div p {
+        font-size: 2.5rem;
+        margin: 0 0 15% 0;
     }
 
 }
